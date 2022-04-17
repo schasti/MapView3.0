@@ -119,7 +119,7 @@ function changeBluetooth(BeNmbr) {
     bluetoothlng=name.substring(0,name.indexOf(","))
     bluetoothlat=name.substring(name.indexOf(",")+1)
 }
-var test
+
 
 function newStart(){
 var start = remember {lngLat: {lng: bluetoothlng, lat: bluetoothlat}, zLevel: 1};
